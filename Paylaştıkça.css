@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Raleway", sans-serif;
+}
+
+.navbar-nav {
+    padding-left: 510px!important;
+}
+
+.carousel-item img{ 
+height: 550px !important;
+} 
+.about-us-container{
+    text-align: center;
+    padding-top: 70px;
+    background-color: #f2f2f2;
+    padding-bottom: 70px;
+}
+
+.about-us-container p{
+   padding: 5px 200px 5px 200px;
+    text-align: center;
+    font-size: 14px;
+    color:#393942;
+}
+.title .aboutus-title{
+    color:#393942;
+    font-weight: 600;
+}
+.line{
+    border:none;
+    border-top: 2px solid ;
+    max-width: 250px;
+    margin: 25px auto;
+    margin-top: 30px;    
+}
+.leaf-c{
+    font-size: 40px;
+    position: relative;
+    border: 1px solid #f2f2f2 ;
+    background-color:#f2f2f2 ;
+    top: -45px;
+    padding-left:  5px;
+    padding-right: 7px;
+}
+
+.our-worker{
+    text-align: center;
+}
+
+.col-2 img{
+    width:100%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.worker-c{
+    padding-inline: 100px;
+  
+}
+
+.r-c .col-2{
+    transition: 0.4s;
+}
+.r-c .col-2:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.photos-c{
+    background-color: #f2f2f2;
+}
+
+.photos-r .col-3 img{
+    width: 100%;
+    
+}
+
+.photos-r .col-3{
+    transition: 0.4s;
+}
+.photos-r .col-3:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+textarea{
+    width:100%;
+    resize:none;
+}
+.f-c{
+    height: 100px;
+}
